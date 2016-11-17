@@ -54,6 +54,14 @@ config/app.php
 add this to main template:
 
 	<link href="{{ asset('/vendor/call-request/css/callrequest.css') }}" rel='stylesheet' type='text/css'>
-	<script src="{{ asset('/vendor/call-request/js/callrequest.js') }}"></script>.
+	<script src="{{ asset('/vendor/call-request/js/callrequest.js') }}"></script>
+	
+заменить 
 
-рабочий пакет доступен по ссылку http://domain/call-request/form/
+	\папка проекта\resources\views\layouts\app.blade.php
+	\папка проекта\resources\views\welcome.blade.php
+на
+	
+	https://github.com/usparin/laravel/blob/master/resources/views/layouts/app.blade.php
+
+ссылка пример, по которой после установки можно посмотреть работу пакета: http://domain/call-request/form/
