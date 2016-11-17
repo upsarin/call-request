@@ -53,7 +53,7 @@ config/app.php
         php artisan migrate
 add this to main template:
 
-	<link href="{{ asset('/vendor/usparin/call-request/css/callrequest.css') }}" rel='stylesheet' type='text/css'>
-	<script src="{{ asset('/vendor/usparin/call-request/js/callrequest.js') }}"></script>.
+	<link href="{{ asset('/vendor/call-request/css/callrequest.css') }}" rel='stylesheet' type='text/css'>
+	<script src="{{ asset('/vendor/call-request/js/callrequest.js') }}"></script>.
 
 рабочий пакет доступен по ссылку http://domain/call-request/form/
