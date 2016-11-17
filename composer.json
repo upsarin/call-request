@@ -1,5 +1,5 @@
 {
-    "name": "usparin/call-request",
+    "name": "laravel-news/call-request",
     "description": "Link service based on public package",
     "license": "MIT",
 	"require": {
