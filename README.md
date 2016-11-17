@@ -29,3 +29,7 @@ some require updates:
 		//return parent::render($request, $e);
 	}
 
+add this to main template:
+
+	<link href="{{ asset('/vendor/usparin/call-request/css/callrequest.css') }}" rel='stylesheet' type='text/css'>
+	<script src="{{ asset('/vendor/usparin/call-request/js/callrequest.js') }}"></script>.
