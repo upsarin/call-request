@@ -31,7 +31,8 @@ some require updates:
 		//return parent::render($request, $e);
 	}
 	
-\LaravelNews\CallRequest\ServiceProvider::class
+config/app.php
+
 	'providers' => [/*
          * Laravel Framework Service Providers...
          */
