@@ -3,7 +3,9 @@
 
 some require updates:
 
-    \app\Exceptions\Handler.php
+
+
+\app\Exceptions\Handler.php
 
     public function report(Exception $e)
     {
@@ -28,8 +30,29 @@ some require updates:
 		}
 		//return parent::render($request, $e);
 	}
+	
+\LaravelNews\CallRequest\ServiceProvider::class
+	'providers' => [/*
+         * Laravel Framework Service Providers...
+         */
+        .....
 
+        /*
+         * Application Service Providers...
+         */
+        ....
+        LaravelNews\CallRequest\ServiceProvider::class
+        
+Опубликуем все необходимое
+
+        php artisan vendor:publish --provider="LaravelNews\CallRequest\ServiceProvider"
+
+Прогоним миграции 
+        
+        php artisan migrate
 add this to main template:
 
 	<link href="{{ asset('/vendor/usparin/call-request/css/callrequest.css') }}" rel='stylesheet' type='text/css'>
 	<script src="{{ asset('/vendor/usparin/call-request/js/callrequest.js') }}"></script>.
+
+рабочий пакет доступен по ссылку http://domain/call-request/form/
