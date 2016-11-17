@@ -1,0 +1,19 @@
+{
+    "name": "usparin/call-request",
+    "description": "Link service based on public package",
+    "license": "MIT",
+	"require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "authors": [
+        {
+            "name": "Max",
+            "email": "mvlad91@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelNews\\CallRequest\\": "src"
+        }
+    }
+}
